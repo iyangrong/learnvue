@@ -1,0 +1,190 @@
+<template>
+  <div class="wrapper" ref="wrapper">
+    <ul class="content">
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+      <li>hhh</li>
+    </ul>
+  </div>
+</template>
+
+<script>
+import BScroll from 'better-scroll'
+export default {
+  name: 'LearnBetterScroll',
+  mounted() {
+      this.$nextTick(() => {
+        this.scroll = new BScroll(this.$refs.wrapper, {})
+        this.scroll.refresh()
+        console.log(this.scroll)
+      })
+    }
+}
+</script>
+
+<style scoped>
+  .wrapper {
+    background-color: red;
+    height: 150px;
+    overflow: hidden;
+  }
+  .content {
+    height: 300px;
+  }
+</style>
